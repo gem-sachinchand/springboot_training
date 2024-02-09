@@ -1,7 +1,7 @@
 package com.example.employee.security;
 
 import com.example.employee.model.UserModel;
-import com.example.employee.repo.UserRepository;
+import com.example.employee.repository.UserRepository;
 import com.example.employee.utils.JwtUtils;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

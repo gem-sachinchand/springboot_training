@@ -2,7 +2,7 @@ package com.example.employee.service;
 
 import com.example.employee.dto.UserDto;
 import com.example.employee.model.UserModel;
-import com.example.employee.repo.UserRepository;
+import com.example.employee.repository.UserRepository;
 import com.example.employee.utils.JwtUtils;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;

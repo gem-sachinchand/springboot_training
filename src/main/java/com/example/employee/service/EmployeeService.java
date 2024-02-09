@@ -3,7 +3,7 @@ package com.example.employee.service;
 import com.example.employee.dto.EmployeeDto;
 import com.example.employee.exceptionHandler.EmployeeNotFoundException;
 import com.example.employee.model.EmployeeModel;
-import com.example.employee.repo.EmployeeRepository;
+import com.example.employee.repository.EmployeeRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
