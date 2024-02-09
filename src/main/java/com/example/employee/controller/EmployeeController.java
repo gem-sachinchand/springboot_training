@@ -3,14 +3,15 @@ package com.example.employee.controller;
 import com.example.employee.dto.EmployeeDto;
 import com.example.employee.service.EmployeeService;
 import jakarta.validation.Valid;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-@Controller
-@ResponseBody
-@RequestMapping()
+
+@RestController
+@Slf4j
 public class EmployeeController {
 
     @Autowired

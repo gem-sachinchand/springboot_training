@@ -23,7 +23,6 @@ public class EmployeeService {
     ModelMapper modelMapper;
 
     public ResponseEntity<Object> getEmployeeDetails(String userName){
-        System.out.println("getting username here: " + "userName");
         Optional<EmployeeModel> data = Optional.ofNullable(employeeRepository.findByUserName(userName));
         if (data==null){
             throw new EmployeeNotFoundException("Employee not found with the given ID.");
